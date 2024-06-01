@@ -1,0 +1,130 @@
+/* #region FUENTES */
+@font-face {
+    font-family: lemonMilk;
+    src: url(fonts/lemon_milk/LEMONMILK-Regular.otf);
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: mont;
+    src: url(fonts/mont/Mont-ExtraLightDEMO.otf);
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: boldFont;
+    src: url(fonts/the_bold_font/THE\ BOLD\ FONT\ -\ FREE\ VERSION\ -\ 2023.ttf);
+    font-weight: normal;
+}
+
+/* #endregion */
+
+/* #region GENERAL */
+body {
+    padding: 0;
+    margin: 0;
+}
+.font-1 {
+    font-family: mont;
+}
+.font-2 {
+    font-family: lemonMilk;
+}
+.font-3 {
+    font-family: boldFont;
+}
+h1, h2, h3, h4, h5, h6, span, a {
+    z-index: 10;
+}
+/* #endregion */
+
+/* #region TEMAS PERSONALIZABLES */
+/* TEMA NEGRO */
+.black-theme {
+    background-color: #9f62c2;
+    color: rgb(0, 0, 0);
+}
+.black-theme a {
+    color: white;
+} 
+
+/* #region PARA TODAS LAS SECCIONES */
+section {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    padding: 6%;
+    box-sizing: border-box;
+} 
+#main{
+    background-image: url("https://cdn.theatlantic.com/thumbor/dQyI-PelXStvSH2kKpWmhabZlOU=/9x97:4782x2603/960x504/media/img/mt/2023/10/Snoopy/original.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+ .top-text {
+    display: flex;
+    justify-content: space-between;
+
+    width: 100%;
+}
+
+.bottom-text {
+     display: flex;
+     align-items: flex-end;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.text-left{
+    max-width: 40vw;
+}
+
+.proyecto{
+    max-width: 40vw;
+    font-size: 90px;
+    color: blueviolet;
+}
+
+.card-list{
+    display: flex;
+    width: 100%;
+    flex-basis: 0;
+    flex: 1 1 0px;
+    justify-content: space-between;
+    color: black;
+    font-size: 30px;
+}
+.card{
+    padding: 6px;
+}
+.card img{
+    max-width: 100%;
+}
+#detail{
+    position: relative;
+}
+#detail img{
+    max-width: 50vw;
+    max-height: 100vh;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+.snoopy1{
+    width: 3500px;
+}
+.titulo2{
+    max-width: 40vw;
+    font-size: 90px;
+}
+
+/* #endregion */
+
+/* #region HOBBIES */
+/* #endregion */
+
+/* #region DETAIL */
+/* #endregion */
